@@ -8,12 +8,12 @@ The driver abstracts low-level register manipulation and simplifies GPIO operati
 
 ## Features
 
-✔ Port-level configuration and control  
-✔ Pin-level GPIO operations  
-✔ Arduino-style digital APIs (`digital_write`, `digital_read`)  
-✔ Internal pull-up resistor support  
-✔ Direct register access implementation  
-✔ Bare-metal AVR programming (No Arduino framework)
+1. Port-level configuration and control  
+2. Pin-level GPIO operations  
+3. Arduino-style digital APIs (`digital_write`, `digital_read`)  
+4. Internal pull-up resistor support  
+5. Direct register access implementation  
+6. Bare-metal AVR programming (No Arduino framework)
 
 ---
 
