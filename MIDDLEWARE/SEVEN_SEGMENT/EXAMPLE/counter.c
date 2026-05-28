@@ -9,12 +9,12 @@
 
 int main()
 {
-	port_config(portf,OUTPUT);
+	port_config(portf,OUTPUT);  // configure port f as output
 	while(1)
 	{
-		for(int i=0;i<=9;i++)
+		for(int i=0;i<=9;i++)  
 		{
-			segment(portf,i);
+			segment(portf,i);   // display the number on the 7-segment display
 			delay_h(30);
 		}
 		
