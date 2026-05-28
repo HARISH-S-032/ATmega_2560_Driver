@@ -9,5 +9,5 @@ void segment(uint8_t portx, uint8_t data);
 void segment_dot(uint8_t portx, uint8_t data);
 
 
-#endif;
+#endif
 

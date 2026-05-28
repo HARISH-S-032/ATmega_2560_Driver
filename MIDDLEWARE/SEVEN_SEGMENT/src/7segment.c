@@ -6,7 +6,7 @@
 2.description : display a number on the 7-segment display   
 3.parameters  : portx - port name
                 data  - the number to be displayed (0-9)
- */----------------------------------------------------------
+ ----------------------------------------------------------*/
 
 void segment(uint8_t portx, uint8_t data)
 {
@@ -19,7 +19,7 @@ void segment(uint8_t portx, uint8_t data)
 2.description : display a number on the 7-segment display with a dot   
 3.parameters  : portx - port name
                 data  - the number to be displayed (0-9)
- */------------------------------------------------------------------
+ ------------------------------------------------------------------*/
 
 void segment_dot(uint8_t portx, uint8_t data)
 {

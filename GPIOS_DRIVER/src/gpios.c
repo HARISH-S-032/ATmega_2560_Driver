@@ -6,7 +6,7 @@
 2.description : configure the whole port as INPUT or OUTPUT
 3.parameters  : port - the port to be configured
                 data - INPUT,OUTPUT or value directly
-*/-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------*/
 
 void port_config( char port ,uint8_t data )   
 {
@@ -19,7 +19,7 @@ void port_config( char port ,uint8_t data )
 2.description : configure the pin as input or output
 3.parameters  : pin  - the pin to be configured (Ardiuno pin number)
                 data - INPUT or OUTPUT
-*/------------------------------------------------------------------
+------------------------------------------------------------------*/
 
 void pin_mode(uint8_t pin , uint8_t data)
 {
@@ -39,7 +39,7 @@ void pin_mode(uint8_t pin , uint8_t data)
 2.description : write data to the whole port
 3.parameters  : portx - port name
                 data - the data to be written
-*/---------------------------------------------
+---------------------------------------------*/
 
 void port_write( char portx ,uint8_t data )  
 {
@@ -53,7 +53,7 @@ void port_write( char portx ,uint8_t data )
 3.parameters  : portx - port name
                 pin   - pin number of the port (0-7)
                 data  - high or low
-*/-------------------------------------------------
+-------------------------------------------------*/
 
 void pin_write( char portx , uint8_t pin ,  uint8_t data )
 {
@@ -93,7 +93,7 @@ void digital_write(uint8_t pin ,  uint8_t data )
 2.description : read data from the whole port
 3.parameters  : portx - port name
 4.return      : the data read from the port
-*/-------------------------------------------------
+-------------------------------------------------*/
 
 uint8_t port_read( char portx)
 {
@@ -107,7 +107,7 @@ uint8_t port_read( char portx)
 3.parameters  : portx - port name
                 pin   - pin number of the port (0-7)
 4.return      : the data read from the pin
-*/-------------------------------------------------
+-------------------------------------------------*/
 
 uint8_t pin_read( char portx , uint8_t pin)
 {
@@ -121,7 +121,7 @@ uint8_t pin_read( char portx , uint8_t pin)
 2.description : read data from a specific pin using pin number
 3.parameters  : pin  -  pin number (Arduino pin number)
 4.return      : the data read from the pin
-*/------------------------------------------------------------
+------------------------------------------------------------*/
 
 uint8_t digital_read( uint8_t pin)
 {
@@ -136,7 +136,7 @@ uint8_t digital_read( uint8_t pin)
 1.function    : port_pullup
 2.description : enable pull-up resistor for the whole port
 3.parameters  : portx - port name
-*/---------------------------------------------------------
+---------------------------------------------------------*/
 
 void port_pullup(char portx)
 {
@@ -149,7 +149,7 @@ void port_pullup(char portx)
 2.description : enable pull-up resistor for a specific pin
 3.parameters  : portx - port name
                 pin   - pin number of the port (0-7)
-*/---------------------------------------------------------
+---------------------------------------------------------*/
 
 void pin_pullup (char portx , uint8_t pin)
 {
@@ -161,7 +161,7 @@ void pin_pullup (char portx , uint8_t pin)
 1.function    : digital_pullup
 2.description : enable pull-up resistor for a specific pin using pin number
 3.parameters  : pin  -  pin number (Arduino pin number)
-*/---------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
 
 void digital_pullup(uint8_t pin)
 {
