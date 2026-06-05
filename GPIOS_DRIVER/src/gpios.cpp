@@ -73,7 +73,7 @@ void pin_write( char portx , uint8_t pin ,  uint8_t data )
 2.description : write data to a specific pin using pin number   
 3.parameters  : pin  -  pin number (Arduino pin number)
                 data - high or low
-*/------------------------------------------------------------
+------------------------------------------------------------*/
 
 void digital_write(uint8_t pin ,  uint8_t data )
 {

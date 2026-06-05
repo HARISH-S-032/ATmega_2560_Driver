@@ -4,8 +4,6 @@
 #include <stdint.h>
 
 
-#include <stdint.h>
-
 /* ================= USART0 ================= */
 
 #define UCSR0A_REG (*(volatile uint8_t*)0xC0) //USART Control and Status Register A
